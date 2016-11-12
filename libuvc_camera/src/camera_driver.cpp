@@ -31,14 +31,17 @@
 *  ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 *  POSSIBILITY OF SUCH DAMAGE.
 *********************************************************************/
-#include "libuvc_camera/camera_driver.h"
 
+
+#include <vector>
 #include <ros/ros.h>
 #include <sensor_msgs/Image.h>
 #include <std_msgs/Header.h>
 #include <image_transport/camera_publisher.h>
 #include <dynamic_reconfigure/server.h>
 #include <libuvc/libuvc.h>
+
+#include "libuvc_camera/camera_driver.h"
 
 namespace libuvc_camera {
 
